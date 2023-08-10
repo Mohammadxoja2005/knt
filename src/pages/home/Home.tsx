@@ -1,8 +1,15 @@
 import { FC } from 'react'
+import Header from '../../layouts/header/Header';
+import Banner from './components/banner/Banner';
+import Filter from '../../layouts/filter/Filter';
 
 const Home: FC = () => {
     return (
-        <div>Home</div>
+        <>
+            <Header />
+            <Banner />
+            <Filter />
+        </>
     )
 }
 
