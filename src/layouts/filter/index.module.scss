@@ -1,5 +1,51 @@
 .container {
-  max-width: 1280px;
-  margin: auto;
-  border: 1px solid red;
+  max-width: 1000px;
+  margin: 0 auto 28px auto;
 }
+
+.filter_inputs_con {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: flex-end;
+  gap: 12px;
+}
+
+.filter_input_con {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.filter_input_group {
+  display: flex;
+  gap: 12px;
+}
+
+.filter_icon {
+  width: 16px;
+  height: 16px;
+}
+
+.filter_input_con:last-child {
+  display: grid;
+  grid-template-columns: 0.3fr 1.7fr;
+  height: 40px;
+}
+
+.filter_btn,
+.filter_icon_con {
+  background: #165082;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 4px;
+  color: white;
+  font-family: inter-semibold;
+  text-align: center;
+  font-size: 14px;
+}
+
+// .filter_input_group:only-child {
+//   grid-template-columns: 1fr;
+// }

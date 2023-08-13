@@ -1,0 +1,36 @@
+.container {
+  max-width: 1000px;
+  margin: auto;
+  font-family: inter-regular;
+  color: #165082;
+  margin-bottom: 36px;
+}
+
+.offer_info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-bottom: 24px;
+}
+
+.offer_title_con {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.offer_title {
+  font-size: 32px;
+}
+
+.offer_des {
+  font-size: 16px;
+  color: #246eae;
+  font-weight: 300;
+}
+
+.offer_list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 16px;
+}

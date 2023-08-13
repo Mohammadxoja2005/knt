@@ -18,3 +18,8 @@
   font-family: inter-bold;
   src: url("./assets/fonts/Inter-Bold.ttf");
 }
+
+@font-face {
+  font-family: mont-regular;
+  src: url("./assets/fonts/Montserrat-Regular.ttf");
+}

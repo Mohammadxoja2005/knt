@@ -1,0 +1,133 @@
+.form {
+  font-family: inter-semibold;
+  display: grid;
+  grid-template-columns: 0.7fr 1.3fr;
+  gap: 24px;
+}
+
+.form_input_group {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 24px;
+}
+
+.form_input_group:first-child {
+  margin-bottom: 10px;
+}
+
+label {
+  font-weight: 500;
+  font-size: 16px;
+  color: #10385c;
+}
+
+.form_input_contact {
+  display: flex;
+}
+
+.form_option {
+  position: relative;
+}
+
+.form_option_con {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  position: absolute;
+  background-color: white;
+  width: 100%;
+  font-size: 13px;
+  max-height: 100px;
+  overflow: auto;
+  border-radius: 5px 0 0 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  padding: 10px;
+  z-index: 1;
+}
+
+.form_option_value {
+  cursor: pointer;
+  color: #101828;
+}
+
+.form_option_btn {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  padding: 10px 16px;
+  cursor: pointer;
+  background-color: white;
+  outline: none;
+  border: 1px solid #98a2b3;
+  border-radius: 4px;
+  font-size: 14px;
+  color: #101828;
+}
+
+.form_btn {
+  background-color: #165082;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 10px;
+  max-width: 191px;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-bottom: 2px;
+}
+
+.form_secret {
+  font-size: 10px;
+  font-weight: 300;
+  font-family: inter-regular;
+}
+
+.form_banner {
+  display: flex;
+  background-color: #ecf6ff;
+  padding: 12px;
+  border-radius: 8px;
+}
+
+.form_banner_info {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.form_banner_name {
+  font-size: 24px;
+  font-weight: 300;
+  font-family: inter-regular;
+  color: #165082;
+}
+
+.banner_highlight {
+  font-weight: 600;
+  font-family: inter-semibold;
+}
+
+.form_banner_des {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.form_banner_point {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.form_banner_bullet {
+  min-width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #165082;
+}
+
+.form_banner_text {
+  font-weight: 300;
+  font-family: inter-regular;
+}

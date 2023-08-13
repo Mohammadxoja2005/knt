@@ -1,0 +1,32 @@
+.container {
+  max-width: 1000px;
+  margin: auto;
+  font-family: inter-regular;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-bottom: 36px;
+}
+
+.consult_info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.consult_title_con {
+  display: flex;
+  gap: 10px;
+}
+
+.consult_title {
+  font-size: 32px;
+  color: #165082;
+  font-weight: 400;
+}
+
+.consult_des {
+  font-size: 16px;
+  font-weight: 300;
+  color: #246eae;
+}
