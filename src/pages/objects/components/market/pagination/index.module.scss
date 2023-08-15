@@ -6,7 +6,11 @@
   margin-left: auto;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-between; 
+
+  img {
+    cursor: pointer;
+  }
 }
 
 .pag_numeration {
@@ -16,7 +20,7 @@
 }
 
 .pag_number {
-  font-size: 12px;
+  font-size: 14px;
   font-family: lato-regular;
   cursor: pointer;
   color: #656565;

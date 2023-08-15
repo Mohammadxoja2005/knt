@@ -21,7 +21,7 @@ const Header: FC = () => {
                 </div>
                 <div className={styles.header_block}>
                     <Link className={styles.header_navigation} to={'/'}>Главная</Link>
-                    <Link className={styles.header_navigation} to={'/'}>Объекты</Link>
+                    <Link className={styles.header_navigation} to={'/objects'}>Объекты</Link>
                     <Link className={styles.header_navigation} to={'/'}>О нас</Link>
                     <Link className={styles.header_navigation} to={'/'}>Застройщикам</Link>
                 </div>
