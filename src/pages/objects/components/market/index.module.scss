@@ -1,0 +1,47 @@
+.container {
+  max-width: 1000px;
+  margin: auto;
+  border: 1px solid red;
+  font-family: inter-regular;
+}
+
+.market_info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.market_title_con {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.market_title {
+  font-size: 32px;
+  color: #165082;
+  font-weight: 400;
+}
+
+.market_des {
+  font-size: 16px;
+  font-weight: 300;
+  color: #246eae;
+}
+
+.market_sort_btn {
+  display: flex;
+  align-items: center;
+  background-color: #165082;
+  padding: 12px 13px;
+  border-radius: 8px;
+  gap: 13px;
+  cursor: pointer;
+}
+
+.market_sort_text {
+  font-size: 20px;
+  color: white;
+  pointer-events: none;
+}
