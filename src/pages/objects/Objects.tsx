@@ -14,7 +14,7 @@ const Objects: FC = () => {
             <br />
             <Filter />
             <Market />
-            {/* <Footer /> */}
+            <Footer />
         </>
     )
 }

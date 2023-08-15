@@ -7,6 +7,7 @@ import POSTICON3 from "../../assets/icons/posticon3.png"
 import POSTICON4 from "../../assets/icons/posticon4.png"
 import DOLLAR from "../../assets/icons/dollar.png"
 import SLIDEREXAMPLE from "../../assets/images/slider_example.png"
+import LIKE from "../../assets/icons/like.png"
 
 const ObjectProduct: FC = () => {
     return (
@@ -16,7 +17,9 @@ const ObjectProduct: FC = () => {
                 Свободного назначения
             </div>
             <div className={styles.offerPr_images_con}>
-
+                <div className={styles.offerPr_like}>
+                    <img src={LIKE} alt="like knt icon" />
+                </div>
                 <div className={styles.offerPr_img_self}>
                     <img src={SLIDEREXAMPLE} alt="" />
                 </div>

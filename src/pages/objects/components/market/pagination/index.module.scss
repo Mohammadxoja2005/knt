@@ -1,0 +1,36 @@
+.pag {
+  max-width: 454px;
+  background-color: #ecf6ff;
+  padding: 14px 24px;
+  border-radius: 26px;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.pag_numeration {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.pag_number {
+  font-size: 12px;
+  font-family: lato-regular;
+  cursor: pointer;
+  color: #656565;
+  font-weight: 600;
+}
+
+.pag_number_active {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 28px;
+  height: 28px;
+  background-color: #165082;
+  border-radius: 50%;
+  color: white;
+  cursor: pointer;
+}

@@ -13,6 +13,20 @@
   margin-bottom: 10px;
 }
 
+.offerPr_like {
+  min-width: 28px;
+  height: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 50%;
+  position: absolute;
+  right: 22px;
+  top: 6px;
+  cursor: pointer;
+}
+
 .offerPr_watermark {
   padding: 6px 16px;
   background-color: #165082;

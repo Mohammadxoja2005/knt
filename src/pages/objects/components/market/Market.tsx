@@ -5,6 +5,7 @@ import DEFAULT from "../../../../assets/icons/default.svg"
 import DEFAULTDOWN from "../../../../assets/icons/defaultdown.png"
 // components
 import MarketList from './marketlist/MarketList';
+import Pagination from './pagination/Pagination';
 
 const Market: FC = () => {
     return (
@@ -26,7 +27,7 @@ const Market: FC = () => {
                 </div>
 
                 <MarketList />
-                <div></div>
+                <Pagination />
             </div>
         </section>
     )
