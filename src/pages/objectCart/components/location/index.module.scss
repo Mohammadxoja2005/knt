@@ -5,6 +5,10 @@
   grid-template-columns: 1.3fr 0.7fr;
   font-family: inter-regular;
   color: #165082;
+  margin-bottom: 8px;
+}
+
+.loc_map {
   display: flex;
   flex-direction: column;
   gap: 13px;

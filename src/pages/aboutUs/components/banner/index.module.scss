@@ -1,0 +1,30 @@
+.banner {
+  max-width: 1280px;
+  margin: 24px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  background-image: url("../../../../assets/images/aboutusbackround.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  font-family: inter-regular;
+  padding: 80px 0;
+}
+
+.container {
+}
+
+.banner_title {
+  font-size: 32px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.banner_slogan {
+  font-size: 32px;
+  font-weight: 400;
+  text-align: center;
+}
