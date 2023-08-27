@@ -1,0 +1,52 @@
+.container {
+  max-width: 1000px;
+  margin: auto;
+  color: #165082;
+  font-family: inter-regular;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-bottom: 24px;
+}
+
+.objectPrt_title {
+  font-weight: 400;
+  font-size: 32px;
+}
+
+.objectPrt_grid {
+  display: grid;
+  grid-template-columns: 1.3fr 0.7fr;
+}
+
+.objectPrt_list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.objectPrt_chrctr {
+  display: flex;
+  align-items: flex-end;
+  gap: 12px;
+}
+
+.objectPtr_name {
+  display: flex;
+  gap: 7px;
+  align-items: center;
+}
+
+.objectPrt_chrctr_name {
+  font-size: 16px;
+  //   max-width: 10px;
+}
+
+.objectPrt_line {
+  width: 100%;
+  border: 1px solid #165082;
+}
+
+.objectPrt_number {
+  font-size: 16px;
+}

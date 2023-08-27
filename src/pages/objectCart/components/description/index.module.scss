@@ -3,6 +3,9 @@
   margin: 0 auto 12px auto;
   font-family: inter-regular;
   color: #165082;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
 }
 
 .des_title {
