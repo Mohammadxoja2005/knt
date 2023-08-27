@@ -1,0 +1,16 @@
+.container {
+  max-width: 1000px;
+  margin: 0 auto 12px auto;
+  font-family: inter-regular;
+  color: #165082;
+}
+
+.des_title {
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.des_widget_con {
+  display: grid;
+  grid-template-columns: 1.3fr 0.7fr;
+}
