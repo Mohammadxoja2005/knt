@@ -2,9 +2,13 @@ import { FC } from 'react'
 
 import Header from '../../layouts/header/Header'
 import Footer from '../../layouts/footer/Footer'
-import Form from '../../layouts/form/Form'
+import Contact from './components/contact/Contact'
 import Banner from './components/banner/Banner'
 import Description from './components/description/Description'
+import Trustteam from './components/trustteam/Trustteam'
+import Benefit from './components/benefit/Benefit'
+import Help from './components/help/Help'
+import Partner from './components/partner/Partner'
 
 const AboutUs: FC = () => {
     return (
@@ -12,9 +16,11 @@ const AboutUs: FC = () => {
             <Header />
             <Banner />
             <Description />
-            <div style={{ maxWidth: "1000px", margin: "auto" }} >
-                <Form />
-            </div>
+            <Trustteam />
+            <Benefit />
+            <Help />
+            <Partner />
+            <Contact />
             <Footer />
         </>
     )

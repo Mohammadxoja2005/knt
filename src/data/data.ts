@@ -5,6 +5,14 @@ import PARAM4 from "../assets/icons/param4.png";
 import PARAM5 from "../assets/icons/param5.png";
 import PARAM6 from "../assets/icons/param6.png";
 
+import CARO1 from "../assets/icons/slide1_1.png"
+import CARO2 from "../assets/icons/slide1_2.png"
+import CARO3 from "../assets/icons/slide1_3.png"
+import CARO4 from "../assets/icons/slide1_4.png"
+import CARO5 from "../assets/icons/slide2_1.png"
+import CARO6 from "../assets/icons/slide2_2.png"
+import CARO7 from "../assets/icons/slide2_3.png"
+
 export const area = [
     {
         id: 1,
@@ -70,4 +78,36 @@ export const object_characteristics = [
         object_number: "2",
         object_measure: ""
     }
+]
+
+
+export const caraousel = [
+    {
+        id: 1,
+        image: CARO1,
+    },
+    {
+        id: 2,
+        image: CARO2,
+    },
+    {
+        id: 3,
+        image: CARO3,
+    },
+    {
+        id: 4,
+        image: CARO4,
+    },
+    {
+        id: 5,
+        image: CARO5,
+    },
+    {
+        id: 6,
+        image: CARO6,
+    },
+    {
+        id: 7,
+        image: CARO7,
+    },
 ]

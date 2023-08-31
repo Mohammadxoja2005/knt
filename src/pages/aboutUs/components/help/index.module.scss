@@ -1,0 +1,32 @@
+.container {
+  max-width: 1000px;
+  margin: auto;
+  font-family: inter-regular;
+  margin-bottom: 48px;
+}
+
+.help_name {
+  font-weight: 600;
+  font-size: 32px;
+  margin-bottom: 24px;
+}
+
+.help_list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+
+  .help_itself {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 8px;
+    border-radius: 8px;
+    background-color: #ecf6ff;
+  }
+
+  .help_itself_name {
+    color: #165082;
+    font-weight: 600;
+  }
+}

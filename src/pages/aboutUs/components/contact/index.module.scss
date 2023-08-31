@@ -1,0 +1,23 @@
+.container {
+  max-width: 1000px;
+  margin: auto;
+  font-family: inter-regular;
+  color: #031f37;
+  margin-bottom: 55px;
+}
+
+.contact_info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-bottom: 24px;
+}
+
+.contact_name {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.contact_des {
+  font-size: 16px;
+}
