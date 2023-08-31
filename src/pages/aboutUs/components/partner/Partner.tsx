@@ -17,7 +17,7 @@ const Partner: FC = () => {
                 </div>
             </div>
             <div className={styles.carousel}>
-                <div className={styles.carousel_track}>
+                <div className={styles.carousel_track_first}>
                     {caraousel.map((slider) => {
                         return (
                             <div key={slider.id} className={styles.carousel_slider} >
@@ -26,7 +26,10 @@ const Partner: FC = () => {
                         )
                     })}
                 </div>
-                <div className={styles.carousel_track}>
+            </div> 
+
+            <div className={styles.carousel}>
+                <div className={styles.carousel_track_last}>
                     {caraousel.map((slider) => {
                         return (
                             <div key={slider.id} className={styles.carousel_slider} >
